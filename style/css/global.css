@@ -1,0 +1,25 @@
+body,p,h1,h2,h3,h4,h5,h6,dd,dl,dt,th,td,ul,li,ol,form,input,select,textarea,button,pre,legend{ margin:0;padding:0;font-size:14px;font-family:"Microsoft YaHei",微软雅黑,helvetica,arial;}
+button, input, select, textarea { vertical-align:middle; font-family:"Microsoft YaHei",微软雅黑,helvetica,arial;}
+h1, h2, h3, h4, h5, h6 { font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+img,fieldset{ border:0;}
+img{display: block;}
+address,cite,dfn,em,var,i{font-style:normal;}
+ul,ol{list-style-type:none;}
+sup{ vertical-align: text-top; }
+sub{ vertical-align: text-bottom; }
+
+a{ text-decoration:none; cursor:pointer;}
+select,input,textarea{ outline:none;}
+a {outline: none;}
+a:active {star:expression_r(this.onFocus=this.blur());}
+:focus { outline:0; }
+
+/*浮动*/
+.fl{float:left;}
+.fr{float:right;}
+.clear {clear: both;}
+.clearfix:after {clear:both; content:'';display: block;font-size: 0;line-height: 0;visibility: hidden;	width: 0;height: 0;}
+.clearfix {+display: inline-block;}
+* html .clearfix {height: 1%;}
+
