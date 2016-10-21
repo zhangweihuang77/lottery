@@ -12,13 +12,13 @@ var game = {
 	start: function() {
 		this.clicks();
 	},
-	aModel: function(i, j) {
+	aModule: function(i, j) {
 		var self = this;
 		i = setInterval(function() {
 			self.span.eq(j).text((Math.ceil(Math.random() * 35) - 1));
 		}, 30);
 	},
-	bModel: function(i) {
+	bModule: function(i) {
 		var self = this;
 		setTimeout(function() {
 			clearInterval(i + 1);
@@ -31,12 +31,12 @@ var game = {
 	},
 	a: function() {
 		for (var i = 0; i < 7; i++) {
-			this.aModel(i + 1, i);
+			this.aModule(i + 1, i);
 		}
 	},
 	b: function() {
 		for (var i = 0; i < 7; i++) {
-			this.bModel(i);
+			this.bModule(i);
 		}
 	},
 	chance: function(ary) {
